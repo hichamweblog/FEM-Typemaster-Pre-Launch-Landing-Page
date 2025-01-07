@@ -26,8 +26,8 @@ This project is a solution for the Typemaster pre-launch landing page challenge.
 
 ### Links
 
-- [Solution URL](<solution-url>)
-- [Live Site URL](<live-site-url>)
+- [Solution URL](https://www.frontendmentor.io/solutions/typemaster-pre-launch-landing-page-Dxu_J5VR9c)
+- [Live Site URL](https://dz-typemaster-pre-launch.netlify.app/)
 
 ### Built With
 
