@@ -183,6 +183,9 @@
     margin-block-start: clamp(1.44rem, 0.7358rem + 3.0047vw, 3.44rem);
     margin-block-end: clamp(4rem, 3.6479rem + 1.5023vw, 5rem);
   }
+	.logo{
+		border-radius: 0;
+	}
   .hero {
     position: relative;
     display: grid;
@@ -200,11 +203,11 @@
     }
   }
   .hero::after {
-    content: url('./src/assets/shared/pattern-square.svg');
+    content: url('/src/assets/shared/pattern-square.svg');
     position: absolute;
     right: -18rem;
     top: 0;
-    overflow: clip;
+
   }
   .product {
     position: relative;
@@ -222,11 +225,11 @@
     margin-block-end: clamp(7rem, 5.9437rem + 4.507vw, 10rem);
   }
   .product::after {
-    content: url('./src/assets/shared/pattern-square.svg');
+    content: url('/src/assets/shared/pattern-square.svg');
     position: absolute;
     left: -18rem;
     bottom: 0;
-    overflow: clip;
+
   }
   .product__img1 {
     grid-column: 1/2;
