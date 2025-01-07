@@ -171,7 +171,7 @@
   .btn-secondary:hover,
   .btn-secondary:focus-visible {
     background-color: var(--clr-dark-blue);
-    color:var(--clr-white);
+    color: var(--clr-white);
   }
   .cta {
     display: flex;
@@ -184,6 +184,7 @@
     margin-block-end: clamp(4rem, 3.6479rem + 1.5023vw, 5rem);
   }
   .hero {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 2rem 4rem;
@@ -198,7 +199,15 @@
       max-width: calc(100% + 8rem);
     }
   }
+  .hero::after {
+    content: url('./src/assets/shared/pattern-square.svg');
+    position: absolute;
+    right: -18rem;
+    top: 0;
+    overflow: clip;
+  }
   .product {
+    position: relative;
     display: grid;
     grid-template-columns: minmax(0, 16rem) auto;
     gap: 1rem;
@@ -211,6 +220,13 @@
       grid-template-columns: minmax(0, 16rem) auto 22rem;
     }
     margin-block-end: clamp(7rem, 5.9437rem + 4.507vw, 10rem);
+  }
+  .product::after {
+    content: url('./src/assets/shared/pattern-square.svg');
+    position: absolute;
+    left: -18rem;
+    bottom: 0;
+    overflow: clip;
   }
   .product__img1 {
     grid-column: 1/2;
@@ -295,25 +311,24 @@
       display: grid;
       grid-template-rows: auto auto auto;
       grid-template-columns: 1fr;
-			justify-items: center;
-			text-align: center;
-			@media (width > 768px) {
-				justify-items: start;
-				text-align: start;
-			}
+      justify-items: center;
+      text-align: center;
+      @media (width > 768px) {
+        justify-items: start;
+        text-align: start;
+      }
       figure {
         grid-row: 1/2;
       }
       h3 {
         grid-row: 2/3;
-				align-self: self-start;
+        align-self: self-start;
       }
       p {
-				margin-top: auto;
+        margin-top: auto;
         grid-row: 3/4;
       }
     }
-
 
     figure {
       background-color: var(--clr-orange);
@@ -323,17 +338,17 @@
       display: flex;
       justify-content: center;
       align-items: center;
-			margin-bottom: 3rem;
+      margin-bottom: 3rem;
     }
   }
-	footer{
-		margin-block-end: 2.5rem;
-		max-inline-size: auto;
-		p{
-			text-align: center;
-			max-width: unset;
-		}
-	}
+  footer {
+    margin-block-end: 2.5rem;
+    max-inline-size: auto;
+    p {
+      text-align: center;
+      max-width: unset;
+    }
+  }
 }
 
 @layer utilities {
