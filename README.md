@@ -18,7 +18,7 @@ This is a solution to the [Typemaster pre-launch landing page]([<challenge-url>]
 
 ## Overview
 
-This project is a solution for the challenge, designed to showcase a specific layout or feature. The page includes various sections demonstrating the design and responsiveness.
+This project is a solution for the Typemaster pre-launch landing page challenge. It showcases a modern and responsive layout with various sections, including a hero section, features, and a call-to-action. The design is optimized for different screen sizes, ensuring a seamless user experience across devices.
 
 ### Screenshot
 
@@ -33,17 +33,15 @@ This project is a solution for the challenge, designed to showcase a specific la
 
 - Semantic HTML5 markup
 - CSS3
-  - Flexbox
-  - CSS Grid
-  - Responsive design
-  - Animations (if applicable)
-- JavaScript (if applicable)
+
 
 ### Key Features
 
-- Responsive Design: Adjusts seamlessly to different screen sizes (mobile, tablet, desktop).
-- Feature Summary: Describe the main feature here.
-- Modern UI: Clean and modern user interface.
+- **Responsive Design**: Ensures a seamless experience across various devices, including mobile, tablet, and desktop.
+- **Hero Section**: Captivating hero section with a clear call-to-action.
+- **Feature Highlights**: Showcases the main features of the Typemaster product.
+- **Modern Aesthetics**: Clean and modern user interface design.
+
 
 ## How to Use
 
